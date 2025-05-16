@@ -88,23 +88,6 @@ python manage.py runserver
 
 -      /patient/dashboard/
 
-## Project Structure
-
-test-assignment/
-│
-├── accounts/               # Django app handling user accounts
-│   ├── migrations/
-│   ├── templates/accounts/ # HTML templates for signup, login, dashboards
-│   ├── admin.py            # Admin registrations
-│   ├── forms.py            # Signup forms for User and Account models
-│   ├── models.py           # Custom Account model linked to User
-│   ├── urls.py             # URLs for accounts app
-│   └── views.py            # Views for signup, login, dashboard
-│
-├── test_assignment/        # Project settings
-├── db.sqlite3              # SQLite database file
-├── manage.py               # Django project manager script
-└── requirements.txt        # Python dependencies
 
 ## Notes
     Profile pictures are stored in the media/profiles folder.
