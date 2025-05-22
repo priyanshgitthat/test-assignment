@@ -60,7 +60,7 @@ python manage.py runserver
 ```
 
 ## Screenshots
-![alt text](<screenshots/Screenshot (108).png>)
+![alt text](<screenshots\Screenshot (108).png>)
 ![Screenshot (108)](<screenshots/Screenshot (108).png>)  
 ![Screenshot (109)](<screenshots/Screenshot (109).png>)  
 ![Screenshot (110)](<screenshots/Screenshot (110).png>)  
