@@ -60,18 +60,18 @@ python manage.py runserver
 ```
 
 ## Screenshots
-![alt text](<screenshots\Screenshot (108).png>)
-![Screenshot (108)](<screenshots/Screenshot (108).png>)  
-![Screenshot (109)](<screenshots/Screenshot (109).png>)  
-![Screenshot (110)](<screenshots/Screenshot (110).png>)  
-![Screenshot (111)](<screenshots/Screenshot (111).png>)  
-![Screenshot (112)](<screenshots/Screenshot (112).png>)  
-![Screenshot (113)](<screenshots/Screenshot (113).png>)  
-![Screenshot (114)](<screenshots/Screenshot (114).png>)  
-![Screenshot (115)](<screenshots/Screenshot (115).png>)  
-![Screenshot (116)](<screenshots/Screenshot (116).png>)  
-![Screenshot (117)](<screenshots/Screenshot (117).png>)
+## Screenshots
 
+![Screenshot 108](screenshots/screenshot_108.png)  
+![Screenshot 109](screenshots/screenshot_109.png)  
+![Screenshot 110](screenshots/screenshot_110.png)  
+![Screenshot 111](screenshots/screenshot_111.png)  
+![Screenshot 112](screenshots/screenshot_112.png)  
+![Screenshot 113](screenshots/screenshot_113.png)  
+![Screenshot 114](screenshots/screenshot_114.png)  
+![Screenshot 115](screenshots/screenshot_115.png)  
+![Screenshot 116](screenshots/screenshot_116.png)  
+![Screenshot 117](screenshots/screenshot_117.png)
 
 
 ## Usage Guide
