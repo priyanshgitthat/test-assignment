@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block title %}
+List of Blogs
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Health Articles</h2>
+    
+    <!-- Category Navigation -->
+    <div class="mb-4">
+        <a href="?category=all" 
+           class="btn btn-sm btn-{% if not selected_category %}primary{% else %}outline-secondary{% endif %}">
+            All Categories
+        </a>
+        {% for category in categories %}
+        <a href="?category={{ category.id }}" 
+           class="btn btn-sm btn-{% if selected_category == category.id %}primary{% else %}outline-secondary{% endif %}">
+            {{ category.name }}
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- Blog List -->
+    <div class="row">
+        {% if posts %}
+            {% for post in posts %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    {% if post.image %}
+                    <img src="{{ post.image.url }}" class="card-img-top" style="height: 180px; object-fit: cover;">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5>{{ post.title }}</h5>
+                        <span class="badge bg-primary">{{ post.category.name }}</span>
+                        <p class="card-text mt-2">
+                            {{ post.summary|truncatewords:15 }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="col-12">
+                <div class="alert alert-info">No articles available in this category.</div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
